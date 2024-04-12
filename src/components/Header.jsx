@@ -39,7 +39,7 @@ const Header = () => {
             src={brainmaster}
             width={196}
             height={40}
-            alt="Brainmaster logo"
+            alt="cojovi webworx logo"
           />
         </a>
         <nav
