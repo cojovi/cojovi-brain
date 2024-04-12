@@ -225,13 +225,13 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
+    title: "Basic Web Presence Package",
+    description: "Basic components, perfect to get started.",
     price: "0",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Custom website development (up to 5 pages)",
+      "Basic maintenance and security updates",
+      "Hosting services and Basic SEO setup",
     ],
   },
   {
