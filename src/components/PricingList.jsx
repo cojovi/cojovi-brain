@@ -29,7 +29,7 @@ const PricingList = () => {
             href={
               item.price < 100
                 ? "#pricing"
-                : "mailto:contact@brainmaster.vercel.app"
+                : "mailto:cody@cojovi.app"
             }
             white={item.price < 100}
           >

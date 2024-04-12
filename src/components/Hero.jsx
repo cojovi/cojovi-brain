@@ -25,7 +25,7 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             Custom Website Development and&nbsp;&nbsp;Comprehensive Online Solutions with {` `}
             <span className="inline-block relative">
-              Cojovi<span className="text-purple-500">Webwrox</span>{" "}
+              Cojovi<span className="text-purple-500">Webworx</span>{" "}
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"

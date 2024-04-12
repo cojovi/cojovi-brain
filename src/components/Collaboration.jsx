@@ -39,7 +39,7 @@ const Collaboration = () => {
                 <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
                   <img
                     src={brainmasterSymbol}
-                    alt="Brainmaster logo"
+                    alt="cojovi logo"
                     width={48}
                     height={48}
                     className="animate-none"

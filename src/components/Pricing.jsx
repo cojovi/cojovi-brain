@@ -31,9 +31,9 @@ const Pricing = () => {
           </div>
         </div>
         <Heading
-          title="Pay once, use forever"
-          tag="Get started with Brain"
-          tagAccent="master"
+          title="Pick the membership, that fits you best"
+          tag="Get started with Cojovi"
+          tagAccent="Webworx"
         />
         <div className="relative">
           <PricingList />
