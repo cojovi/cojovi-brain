@@ -40,7 +40,7 @@ const Hero = () => {
             productivity with SEO Optimization, enhanced digital presence, and our custom ai integrations to automate workflows.
           </p>
           <Button href="/pricing" white>
-            Get More Info
+            Get More sheit
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
