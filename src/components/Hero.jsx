@@ -39,8 +39,8 @@ const Hero = () => {
             Your vision, our digital craftsmanship. Upgrade your
             productivity with SEO Optimization, enhanced digital presence, and our custom ai integrations to automate workflows.
           </p>
-          <Button href="/pricing" white>
-            Get More sheit
+          <Button href="https://about.cojovi.com" white>
+            My Full Portfolio
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
