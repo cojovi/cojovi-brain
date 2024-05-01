@@ -7,6 +7,16 @@ import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
+import { Bubble } from "@typebot.io/react";
+
+const App = () => {
+  return (
+    <Bubble
+    typebot="cojosupport"
+    theme={{ button: { backgroundColor: "#0042DA" } }}
+    />
+  );
+};
 
 const App = () => {
   return (

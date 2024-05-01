@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@typebot.io/js": "^0.2.81",
+    "@typebot.io/react": "^0.2.81",
     "clsx": "^2.1.0",
     "framer-motion": "^11.0.8",
     "react": "^18.2.0",
