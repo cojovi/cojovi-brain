@@ -68,9 +68,9 @@ const Header = () => {
 
           <HamburgerMenu />
         </nav>
-        <div class="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block">
-          <img src="@/assets/ClientPortal.png" alt="Client Portal">
-        </div>
+        <a
+          href="#sign-up"
+          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
           New account
         </a>
