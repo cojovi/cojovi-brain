@@ -20,6 +20,17 @@
 
       gtag('config', 'G-N5NVXYKD88');
     </script>
+
+    <!-- Chatbot Script -->
+    <script src="http://192.168.1.167:8000/chat.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var chatConfig = {
+          token: "xMSedATchnAiwWxvspzB",
+        };
+        initializeChatWidget(chatConfig);
+      });
+    </script>
   </head>
   <body>
     <div id="root"></div>
