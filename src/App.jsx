@@ -22,11 +22,7 @@ const App = () => {
         <Pricing />
         <Roadmap />
         <Footer />
-        {/* Add the Bubble component here */}
-        <Bubble typebot="cojosupport" theme={{ button: { backgroundColor: "#0042DA" } }} />
-      </div>
-      <ButtonGradient />
-    </>
+
   );
 };
 
