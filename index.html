@@ -25,10 +25,16 @@
     <script src="http://192.168.1.167:8000/chat.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
+        console.log('DOMContentLoaded event fired');
         var chatConfig = {
           token: "xMSedATchnAiwWxvspzB",
         };
-        initializeChatWidget(chatConfig);
+        if (typeof initializeChatWidget === 'function') {
+          console.log('Initializing chat widget with config:', chatConfig);
+          initializeChatWidget(chatConfig);
+        } else {
+          console.error('initializeChatWidget function is not defined');
+        }
       });
     </script>
   </head>
