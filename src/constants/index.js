@@ -329,7 +329,7 @@ export const socials = [
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "https://www.instagram/cojovi",
+    url: "https://www.instagram.com/cojovi",
   },
   {
     id: "3",
