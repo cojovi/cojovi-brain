@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./src/assets/brainmaster-symbol.svg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Upgrade your productivity with Cojovi Webworx.">
+    <title>Cojovi Webworx - Transforming Ideas Into Digital Masterpieces</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-M4V8S4TW"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GTM-M4V8S4TW');
+    </script>
+
+    <!-- Chatbot Script (Local) -->
+    <script src="http://192.168.1.167:8000/chat.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        console.log('DOMContentLoaded event fired');
+        var chatConfig = {
+          token: "xMSedATchnAiwWxvspzB",
+        };
+        if (typeof initializeChatWidget === 'function') {
+          console.log('Initializing chat widget with config:', chatConfig);
+          initializeChatWidget(chatConfig);
+        } else {
+          console.error('initializeChatWidget function is not defined');
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- External Chatbot Script -->
+    <script type="text/javascript">
+      (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+          if (!document.getElementById('root')) {
+            var root = d.createElement('div');
+            root.id = 'root';
+            d.body.appendChild(root);
+          }
+          if (window.myChatWidget && typeof window.myChatWidget.load === 'function') {
+            window.myChatWidget.load({
+              assistantId: '5616eacc-1125-4faf-8ea5-89da1dca4e41',
+              apiKey: 'e8decef3-5def-452f-9525-8c70759bf246',
+            });
+          }
+        };
+        v.src = "https://agentivehub.com/production.bundle.min.js";
+        v.type = "text/javascript";
+        s.parentNode.insertBefore(v, s);
+      })(document, 'script');
+    </script>
+
+  </body>
+</html>
