@@ -17,31 +17,11 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
+
       gtag('config', 'GTM-M4V8S4TW');
     </script>
 
-    <!-- Chatbot Script (Local) -->
-    <script src="http://192.168.1.167:8000/chat.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        console.log('DOMContentLoaded event fired');
-        var chatConfig = {
-          token: "xMSedATchnAiwWxvspzB",
-        };
-        if (typeof initializeChatWidget === 'function') {
-          console.log('Initializing chat widget with config:', chatConfig);
-          initializeChatWidget(chatConfig);
-        } else {
-          console.error('initializeChatWidget function is not defined');
-        }
-      });
-    </script>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-    
-    <!-- External Chatbot Script -->
+    <!-- Chatbot Script -->
     <script type="text/javascript">
       (function(d, t) {
         var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
@@ -63,6 +43,4 @@
         s.parentNode.insertBefore(v, s);
       })(document, 'script');
     </script>
-
-  </body>
-</html>
+    
