@@ -12,14 +12,34 @@
     <title>Cojovi Webworx - Transforming Ideas Into Digital Masterpieces</title>
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-M4V8S4TW"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N5NVXYKD88"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'GTM-M4V8S4TW');
+      gtag('config', 'G-N5NVXYKD88');
     </script>
 
-
-    
+    <!-- Chatbot Script -->
+    <script src="http://192.168.1.167:8000/chat.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        console.log('DOMContentLoaded event fired');
+        var chatConfig = {
+          token: "xMSedATchnAiwWxvspzB",
+        };
+        if (typeof initializeChatWidget === 'function') {
+          console.log('Initializing chat widget with config:', chatConfig);
+          initializeChatWidget(chatConfig);
+        } else {
+          console.error('initializeChatWidget function is not defined');
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
