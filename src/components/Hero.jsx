@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="container realtive" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Custom Website Development and&nbsp;&nbsp;Comprehensive Online Solutions with {` `}
+            Empowering Businesses with&nbsp;&nbsp;Tailored AI Solutions {` `}
             <span className="inline-block relative">
               Cojovi<span className="text-purple-500">Webworx</span>{" "}
               <img
@@ -36,8 +36,8 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            Your vision, our digital craftsmanship. Upgrade your
-            productivity with SEO Optimization, enhanced digital presence, and our custom ai integrations to automate workflows.
+            Your Vision, Our Expertise in AI Integrations. Elevate your
+            business with custom AI solutions designed to enhance workflows and maximize efficiency.
           </p>
           <Button href="https://about.cojovi.com" white>
             My Full Portfolio

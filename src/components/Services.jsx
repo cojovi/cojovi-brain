@@ -16,7 +16,7 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Fine Tuned SEO so You Never Miss a Lead."
+          title="Outfit your site, and Social media with responsive AI Bots so You Never Miss a Lead."
           text="Dont let your competitors take your online business because your not optimized for it"
         />
 
@@ -35,7 +35,7 @@ const Services = () => {
             <div className="relative z-1 max-w-[17rem] ml-auto">
               <h3 className="h4 mb-4">SEO Optimization</h3>
               <p className="body-2 mb-[3rem] text-n-3">
-                We handle all the facets of prime SEO strategies
+                We handle all the facets of AI integration strategies
               </p>
               <ul className="body-2">
                 {brainmastertServices.map((item, index) => (
