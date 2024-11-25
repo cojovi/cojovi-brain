@@ -33,9 +33,9 @@ const Services = () => {
               />
             </div>
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h3 className="h4 mb-4">SEO Optimization</h3>
+              <h3 className="h4 mb-4">AI Workflows for Efficiency</h3>
               <p className="body-2 mb-[3rem] text-n-3">
-                We handle all the facets of AI integration strategies
+                We specialize in creating tailored AI solutions to optimize your company's operations and productivity.
               </p>
               <ul className="body-2">
                 {brainmastertServices.map((item, index) => (
