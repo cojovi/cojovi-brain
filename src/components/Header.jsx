@@ -74,8 +74,8 @@ const Header = () => {
         >
           New account
         </a>
-        <Button className="hidden lg:flex" href="#sign-in">
-          Sign in
+        <Button className="hidden lg:flex" href="https://rabbit-cam.vercel.app/">
+          Rabbit.Stories
         </Button>
         <Button
           className="ml-auto lg:hidden"
