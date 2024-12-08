@@ -75,8 +75,8 @@ export const navigation = [
   },
   {
     id: "5",
-    title: "Sign in",
-    url: "#login",
+    title: "Rabbit.Stories",
+    url: "https://rabbit-cam.vercel.app",
     onlyMobile: true,
   },
 ];
