@@ -13,26 +13,28 @@ import ProjectsBlog from "./components/ProjectsBlog";
 
 const App = () => {
   return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Hero />
-              <Benefits />
-              <Services />
-              <Collaboration />
-              <Pricing />
-              <Roadmap />
-            </>
-          }
-        />
-        <Route path="/projects-blog" element={<ProjectsBlog />} />
-      </Routes>
-      <Footer />
-      <ButtonGradient />
+    <Router basename="/">
+      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
+        <Header />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Hero />
+                <Benefits />
+                <Services />
+                <Collaboration />
+                <Pricing />
+                <Roadmap />
+              </>
+            }
+          />
+          <Route path="/projects-blog" element={<ProjectsBlog />} />
+        </Routes>
+        <Footer />
+        <ButtonGradient />
+      </div>
     </Router>
   );
 };

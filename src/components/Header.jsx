@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { brainmaster } from "../assets";
 import { navigation } from "../constants";
 import Button from "./Button";
@@ -34,14 +34,14 @@ const Header = () => {
       ${openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"}`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-        <a className="block w-[12rem] xl:mr-8" href="#hero">
+        <Link to="/" className="block w-[12rem] xl:mr-8">
           <img
             src={brainmaster}
             width={196}
             height={40}
             alt="cojovi webworx logo"
           />
-        </a>
+        </Link>
         <nav
           className={`${
             openNavigation ? "flex" : "hidden"
@@ -49,9 +49,9 @@ const Header = () => {
         >
           <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
             {navigation.map((item) => (
-              <a
+              <Link
                 key={item.id}
-                href={item.url}
+                to={item.url}
                 className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold lg:leading-5 lg:hover:text-n-1 xl:px-12
               ${item.onlyMobile ? "lg:hidden" : ""}
               ${
@@ -62,7 +62,7 @@ const Header = () => {
                 onClick={handleClick}
               >
                 {item.title}
-              </a>
+              </Link>
             ))}
           </div>
 

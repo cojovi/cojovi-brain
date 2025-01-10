@@ -1,30 +1,29 @@
 import Section from "./Section";
 import Heading from "./Heading";
 import Button from "./Button";
+import { curve } from "../assets";
 
 const ProjectsBlog = () => {
   return (
     <Section id="projects-blog" className="pt-[12rem] -mt-[5.25rem]">
       <div className="container relative">
-        {/* Header Section */}
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
             Projects &amp; Blog
             <span className="inline-block relative">
-              {/* Placeholder for decorative image */}
               <img
-                src="https://via.placeholder.com/624x28"
+                src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
                 width={624}
                 height={28}
-                alt="Curve Decoration"
+                alt="Curve"
               />
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             Welcome to our Projects &amp; Blog section! Explore the latest projects, read insightful blog posts, and stay updated with the community's advancements in AI, coding, and technology.
           </p>
-          <Button href="#Join-Discord" white>
+          <Button href="https://discord.gg/93ZeMUAf" white>
             Join Our Discord
           </Button>
         </div>

@@ -50,7 +50,7 @@ export const navigation = [
   {
     id: "0",
     title: "Community",
-    url: "#community",
+    url: "/#community",
   },
   {
     id: "1",
@@ -60,12 +60,12 @@ export const navigation = [
   {
     id: "2",
     title: "Pricing",
-    url: "#pricing",
+    url: "/#pricing",
   },
   {
     id: "3",
     title: "Roadmap",
-    url: "#roadmap",
+    url: "/#roadmap",
   },
   {
     id: "4",
