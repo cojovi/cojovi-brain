@@ -260,8 +260,8 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "With your custom AI chatbot, Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Ask Anything",
+    text: "Ask, Discover, and Learn Together\nGot questions about AI, coding, or tech? Our community-curated chatbot and knowledge base is here to help. No more endless web searches—simply ask, explore answers crowd-sourced by fellow enthusiasts, and share what you’ve learned with others.",
     backgroundUrl: "./assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -269,7 +269,7 @@ export const benefits = [
   {
     id: "1",
     title: "Adaptive Features",
-    text: "Seamlessly integrate adaptable features for different business models, offering flexibility and scalability in line with your growth.",
+    text: "Built to Evolve With You\nWhether you’re prototyping a new AI model or experimenting with fresh frameworks, our community’s adaptable toolset grows alongside your ambitions. Tap into group-driven insights, refine ideas, and share best practices to keep your projects at the cutting edge.",
     backgroundUrl: "./assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage3,
@@ -277,8 +277,8 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Connect Everywhere",
+    text: "Stay Linked, Anytime & Anywhere\nGet plugged into our global network of developers, makers, and tech fans from any device. Whether you’re at home or on the go, hop into our Discord, browse shared resources, and collaborate on real-time projects—no boundaries, no limitations.",
     backgroundUrl: "./assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage4,
@@ -286,7 +286,7 @@ export const benefits = [
   {
     id: "3",
     title: "Workflow Automations",
-    text: "Connect sources to automate workflows so you can spend more time where your needed, in the field. We can custom make codes and scripts to automate and handle repetitive actions so you dont have to.",
+    text: "Streamline and Share Your Process\nFree up time for what truly matters by automating routine tasks. Lean on the community for open-source scripts, coding tips, and creative solutions that simplify your workflow. Then, pay it forward by sharing your own hacks with everyone else.",
     backgroundUrl: "./assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage5,
@@ -295,15 +295,15 @@ export const benefits = [
   {
     id: "4",
     title: "Custom Web Solutions",
-    text: "Access exclusive, tailor-made digital solutions, ensuring your website remains unique, functional, and always ahead of the curve.",
+    text: "Create, Collaborate, Customize\nLooking to build something unique on the web? Our community is packed with innovators swapping ideas, offering hands-on help, and showcasing their favorite tools. Find inspiration for your next project, collaborate on code, and shape the future of online experiences—together.",
     backgroundUrl: "./assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage6,
   },
   {
     id: "5",
-    title: "Conversion Optimization.",
-    text: "Utilize our specialized components for upselling and upgrades, designed to streamline the user journey and boost conversion rates.",
+    title: "Conversion Optimization",
+    text: "Refine User Experiences Collectively\nTransform casual visitors into passionate followers by learning from each other’s best practices. Exchange feedback on user interfaces, A/B testing strategies, and design improvements. As a community, we fine-tune the user journey for the ultimate engagement and impact.",
     backgroundUrl: "./assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage7,

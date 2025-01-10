@@ -1,0 +1,52 @@
+on the homepage there is a section that says:
+
+Ask anything
+With your custom AI chatbot, Lets users quickly find answers to their questions without having to search through multiple sources.
+Explore more
+
+Adaptive Features
+Seamlessly integrate adaptable features for different business models, offering flexibility and scalability in line with your growth.
+Explore more
+
+Connect everywhere
+Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.
+Explore more
+
+Workflow Automations
+Connect sources to automate workflows so you can spend more time where your needed, in the field. We can custom make codes and scripts to automate and handle repetitive actions so you dont have to.
+Explore more
+
+Custom Web Solutions
+Access exclusive, tailor-made digital solutions, ensuring your website remains unique, functional, and always ahead of the curve.
+Explore more
+
+Conversion Optimization.
+Utilize our specialized components for upselling and upgrades, designed to streamline the user journey and boost conversion rates.
+Explore more
+
+
+Change all those to as follows:
+1. Ask Anything
+Ask, Discover, and Learn Together
+Got questions about AI, coding, or tech? Our community-curated chatbot and knowledge base is here to help. No more endless web searches—simply ask, explore answers crowd-sourced by fellow enthusiasts, and share what you’ve learned with others.
+
+2. Adaptive Features
+Built to Evolve With You
+Whether you’re prototyping a new AI model or experimenting with fresh frameworks, our community’s adaptable toolset grows alongside your ambitions. Tap into group-driven insights, refine ideas, and share best practices to keep your projects at the cutting edge.
+
+3. Connect Everywhere
+Stay Linked, Anytime & Anywhere
+Get plugged into our global network of developers, makers, and tech fans from any device. Whether you’re at home or on the go, hop into our Discord, browse shared resources, and collaborate on real-time projects—no boundaries, no limitations.
+
+4. Workflow Automations
+Streamline and Share Your Process
+Free up time for what truly matters by automating routine tasks. Lean on the community for open-source scripts, coding tips, and creative solutions that simplify your workflow. Then, pay it forward by sharing your own hacks with everyone else.
+
+5. Custom Web Solutions
+Create, Collaborate, Customize
+Looking to build something unique on the web? Our community is packed with innovators swapping ideas, offering hands-on help, and showcasing their favorite tools. Find inspiration for your next project, collaborate on code, and shape the future of online experiences—together.
+
+6. Conversion Optimization
+Refine User Experiences Collectively
+Transform casual visitors into passionate followers by learning from each other’s best practices. Exchange feedback on user interfaces, A/B testing strategies, and design improvements. As a community, we fine-tune the user journey for the ultimate engagement and impact.
+
