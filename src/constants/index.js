@@ -55,7 +55,7 @@ export const navigation = [
   {
     id: "1",
     title: "Projects & Blog",
-    url: "#projects-blog",
+    url: "/projects-blog",
   },
   {
     id: "2",
@@ -70,7 +70,7 @@ export const navigation = [
   {
     id: "4",
     title: "Join Discord",
-    url: "#join-discord",
+    url: "https://discord.gg/93ZeMUAf",
     onlyMobile: true,
   },
   {
