@@ -49,13 +49,13 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Community",
+    url: "#community",
   },
   {
     id: "1",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Projects & Blog",
+    url: "#projects-blog",
   },
   {
     id: "2",
@@ -69,8 +69,8 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
+    title: "Join Discord",
+    url: "#join-discord",
     onlyMobile: true,
   },
   {

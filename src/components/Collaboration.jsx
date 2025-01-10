@@ -10,7 +10,7 @@ const Collaboration = () => {
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
-            Custom AI Web Apps for seamless collaboration
+            Join Our Community for Seamless Collaboration
           </h2>
           <ul className="max-w-[22rem] mb-10 md:mb-14">
             {collabContent.map((item) => (
@@ -25,12 +25,14 @@ const Collaboration = () => {
               </li>
             ))}
           </ul>
-          <Button>Try it now</Button>
+          <Button href="https://discord.gg/your-discord-invite">
+            Join Our Discord Community
+          </Button>
         </div>
 
         <div className="mt-4 lg:ml-auto xl:w-[38rem]">
           <p className="body-2 mb-8 text-n-4 md:mb-16 lg:mb-32 lg:w-[22rem] lg:mx-auto">
-            {collabText}
+            Engage with fellow members, collaborate on projects, and access exclusive resources to enhance your skills and knowledge.
           </p>
 
           <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
