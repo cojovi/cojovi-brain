@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Welcome to Cojovi Community &nbsp;&nbsp;
+            Welcome to Cojovi.com  &nbsp;&nbsp;
             <span className="inline-block relative">
               Your Hub for AI, Coding, and Tech Collaboration
               <img
@@ -38,7 +38,7 @@ const Hero = () => {
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             Join our vibrant community to share your projects, collaborate on coding challenges, and learn from fellow tech enthusiasts worldwide. Together, we’ll explore the limitless possibilities of emerging technologies.
           </p>
-          <Button href="https://discord.gg/your-discord-invite" white>
+          <Button href="https://discord.gg/7T9DyEkF" white>
             Join Our Discord
           </Button>
         </div>
