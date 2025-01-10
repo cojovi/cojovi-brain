@@ -16,26 +16,26 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="Outfit your site, and Social media with responsive AI Bots so You Never Miss a Lead."
-          text="Dont let your competitors take your online business because your not optimized for it"
+          title="Empower Your Site & Socials With AI — Together"
+          text="Want to stay connected around the clock and never miss a conversation? Join our community of AI builders, collaborators, and curious tech enthusiasts. We’ll help you integrate responsive AI solutions while sharing knowledge, tips, and resources that keep everyone one step ahead of the competition."
         />
 
         <div className="relative">
-          {/* Service 1 */}
+          {/* Collaborative AI Workflows */}
           <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
                 className="w-full h-full object-cover md:object-right"
                 src={service1}
-                alt="Smartest AI"
+                alt="Collaborative AI Workflows"
                 width={800}
                 height={730}
               />
             </div>
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h3 className="h4 mb-4">AI Workflows for Efficiency</h3>
+              <h3 className="h4 mb-4">Collaborative AI Workflows</h3>
               <p className="body-2 mb-[3rem] text-n-3">
-                We specialize in creating tailored AI solutions to optimize your company's operations and productivity.
+                Streamline your processes by tapping into a vibrant network of developers and innovators who share specialized AI techniques for everyday tasks. Whether it’s generating high-quality images, enhancing visuals, or integrating systems seamlessly, you’ll learn from and with others, accelerating your growth and productivity.
               </p>
               <ul className="body-2">
                 {brainmastertServices.map((item, index) => (
@@ -61,63 +61,63 @@ const Services = () => {
                 <img
                   src={service2}
                   className="h-full w-full object-cover"
-                  alt="robot image"
+                  alt="Community-Driven Social Media Integration"
                   width={630}
                   height={750}
                 />
               </div>
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h3 className="h4 mb-4">Social Media Integration</h3>
+                <h3 className="h4 mb-4">Community-Driven Social Media Integration</h3>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Consolodate all markting assets in one place. It also allows us to collaborate effectively.
+                  Bring your marketing efforts under one collaborative umbrella. Swap best practices, automation scripts, and campaign strategies with other creatives who’ve been there and done that. Together, we’ll combine our insights to master social platforms more effectively than ever before.
                 </p>
               </div>
               <PhotoChatMessage />
             </div>
 
-            {/* Service 3 */}
+            {/* Collective Content Creation */}
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h3 className="h4 mb-4">Dynamic Content Generation.</h3>
+                <h3 className="h4 mb-4">Collective Content Creation</h3>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  Expand your digital footprint while maintaining brand consistency with our content generators, ensuring quality and uniformity across platforms.
+                  Fuel your brand’s online presence with a supportive community of content creators. By sharing open-source tools, design tips, and testing feedback, we help each other produce consistent, high-quality content—no matter the platform or size of the project.
                 </p>
-                <ul className="flex items-center justify-between">
-                  {brainmasterServicesIcons.map((item, index) => (
-                    <li
-                      key={index}
-                      className={`rounded-2xl flex items-center justify-center hover:bg-n-5 ${
+              </div>
+              <ul className="flex items-center justify-between">
+                {brainmasterServicesIcons.map((item, index) => (
+                  <li
+                    key={index}
+                    className={`rounded-2xl flex items-center justify-center hover:bg-n-5 ${
+                      index === 2
+                        ? "w-[3rem] h-[3rem] p-0.25 bg-conic-gradient md:w-[4.5rem] md:h-[4.5rem]"
+                        : "w-10 h-10 bg-n-6 md:w-15 md:h-15"
+                    }`}
+                  >
+                    <div
+                      className={
                         index === 2
-                          ? "w-[3rem] h-[3rem] p-0.25 bg-conic-gradient md:w-[4.5rem] md:h-[4.5rem]"
-                          : "w-10 h-10 bg-n-6 md:w-15 md:h-15"
-                      }`}
+                          ? "flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]"
+                          : ""
+                      }
                     >
-                      <div
-                        className={
-                          index === 2
-                            ? "flex items-center justify-center w-full h-full bg-n-7 rounded-[1rem]"
-                            : ""
-                        }
-                      >
-                        <img src={item} width={24} height={24} alt={item} />
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
-                <img
-                  src={service3}
-                  alt="Scary robot like Cyrax"
-                  width={520}
-                  height={400}
-                  className="w-full h-full object-cover"
-                />
-
-                <VideoChatMessage />
-                <VideoBar />
-              </div>
+                      <img src={item} width={24} height={24} alt={item} />
+                    </div>
+                  </li>
+                ))}
+              </ul>
             </div>
+          </div>
+          <div className="relative h-[20rem] bg-n-8 rounded-xl overflow-hidden md:h-[25rem]">
+            <img
+              src={service3}
+              alt="Collective Content Creation"
+              width={520}
+              height={400}
+              className="w-full h-full object-cover"
+            />
+
+            <VideoChatMessage />
+            <VideoBar />
           </div>
           <Gradient />
         </div>
