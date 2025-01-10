@@ -8,7 +8,7 @@ import MenuSvg from "../assets/svg/MenuSvg";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 
 const Header = () => {
-  const pathname = useLocation();
+  const location = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
 
   const toggleNavigation = () => {
@@ -23,9 +23,13 @@ const Header = () => {
 
   const handleClick = () => {
     if (!openNavigation) return;
-
     enablePageScroll();
     setOpenNavigation(false);
+  };
+
+  const isActive = (url) => {
+    if (url.startsWith('http')) return false;
+    return location.pathname === url || (url === '/' && location.pathname === '');
   };
 
   return (
@@ -48,32 +52,31 @@ const Header = () => {
           } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
         >
           <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
-            {navigation.map((item) => (
-              <Link
-                key={item.id}
-                to={item.url}
-                className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold lg:leading-5 lg:hover:text-n-1 xl:px-12
-              ${item.onlyMobile ? "lg:hidden" : ""}
-              ${
-                item.url === pathname.hash
-                  ? "z-2 lg:text-n-1"
-                  : "lg:text-n-1/50"
-              }`}
-                onClick={handleClick}
-              >
-                {item.title}
-              </Link>
-            ))}
+            {navigation.map((item) => {
+              // Determine if the link should be an internal Link or external anchor
+              const isExternal = item.url.startsWith('http');
+              const LinkComponent = isExternal ? 'a' : Link;
+              const linkProps = isExternal 
+                ? { href: item.url, target: "_blank", rel: "noopener noreferrer" }
+                : { to: item.url };
+
+              return (
+                <LinkComponent
+                  key={item.id}
+                  {...linkProps}
+                  className={`block relative font-code text-2xl uppercase text-n-1 transition-colors hover:text-color-1 px-6 py-6 md:py-8 lg:-mr-0.25 lg:text-xs lg:font-semibold lg:leading-5 lg:hover:text-n-1 xl:px-12
+                  ${item.onlyMobile ? "lg:hidden" : ""}
+                  ${isActive(item.url) ? "z-2 lg:text-n-1" : "lg:text-n-1/50"}`}
+                  onClick={handleClick}
+                >
+                  {item.title}
+                </LinkComponent>
+              );
+            })}
           </div>
 
           <HamburgerMenu />
         </nav>
-        <a
-          href="#sign-up"
-          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
-        >
-          New account
-        </a>
         <Button className="hidden lg:flex" href="https://rabbit-cam.vercel.app/">
           Rabbit.Stories
         </Button>

@@ -13,27 +13,29 @@ import ProjectsBlog from "./components/ProjectsBlog";
 
 const App = () => {
   return (
-    <Router basename="/">
-      <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
-        <Header />
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Hero />
-                <Benefits />
-                <Services />
-                <Collaboration />
-                <Pricing />
-                <Roadmap />
-              </>
-            }
-          />
-          <Route path="/projects-blog" element={<ProjectsBlog />} />
-        </Routes>
-        <Footer />
-        <ButtonGradient />
+    <Router>
+      <div className="relative overflow-hidden bg-n-8">
+        <div className="pt-[4.75rem] lg:pt-[5.25rem]">
+          <Header />
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Hero />
+                  <Benefits />
+                  <Services />
+                  <Collaboration />
+                  <Pricing />
+                  <Roadmap />
+                </>
+              }
+            />
+            <Route path="/projects-blog" element={<ProjectsBlog />} />
+          </Routes>
+          <Footer />
+          <ButtonGradient />
+        </div>
       </div>
     </Router>
   );
