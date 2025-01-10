@@ -46,6 +46,8 @@ import {
   twitter,
 } from "../assets";
 
+import projectsBlogIcon from "../assets/icons/projectsBlogIcon.svg";
+
 export const navigation = [
   {
     id: "0",
@@ -55,7 +57,8 @@ export const navigation = [
   {
     id: "1",
     title: "Projects & Blog",
-    url: "#projects-blog",
+    url: "/projects-blog",
+    iconUrl: projectsBlogIcon,
   },
   {
     id: "2",
