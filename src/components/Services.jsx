@@ -17,7 +17,7 @@ const Services = () => {
       <div className="container">
         <Heading
           title="Empower Your Site & Socials With AI — Together"
-          text="Want to stay connected around the clock and never miss a conversation? Join our community of AI builders, collaborators, and curious tech enthusiasts. We’ll help you integrate responsive AI solutions while sharing knowledge, tips, and resources that keep everyone one step ahead of the competition."
+          text="Want to stay connected around the clock and never miss a conversation? Join our community of AI builders, collaborators, and curious tech enthusiasts. We'll help you integrate responsive AI solutions while sharing knowledge, tips, and resources that keep everyone one step ahead of the competition."
         />
 
         <div className="relative">
@@ -27,16 +27,31 @@ const Services = () => {
               <img
                 className="w-full h-full object-cover md:object-right"
                 src={service1}
-                alt="Collaborative AI Workflows"
+                alt="Mick: The Collaborative AI Coding Assistant"
                 width={800}
                 height={730}
               />
             </div>
             <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h3 className="h4 mb-4">Collaborative AI Workflows</h3>
+              <h3 className="h4 mb-4">Mick: The Collaborative AI Coding Assistant</h3>
               <p className="body-2 mb-[3rem] text-n-3">
-                Streamline your processes by tapping into a vibrant network of developers and innovators who share specialized AI techniques for everyday tasks. Whether it’s generating high-quality images, enhancing visuals, or integrating systems seamlessly, you’ll learn from and with others, accelerating your growth and productivity.
+                Paste your code, hit <em>Go</em>—Mick flags bugs, explains what's happening,
+                and offers cleaner, faster alternatives on the spot. It's like having a
+                senior dev who never sleeps, tuning your scripts and levelling up your stack
+                in real time.
               </p>
+              {/* Mick link box */}
+              <a
+                href="https://mick-the-droid.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-4 py-2 mb-4 rounded-xl border border-n-1/10 bg-n-8 hover:bg-n-7 transition-colors shadow-sm"
+                style={{ textDecoration: 'none' }}
+              >
+                {/* Use a purple icon asset, e.g., benefitIcon1 or similar */}
+                <img src={require('../assets/benefits/card-1.svg').default} alt="Mick Icon" width={24} height={24} />
+                <span className="font-semibold text-sm text-purple-400">Try Mick Live</span>
+              </a>
               <ul className="body-2">
                 {brainmastertServices.map((item, index) => (
                   <li
@@ -69,7 +84,7 @@ const Services = () => {
               <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
                 <h3 className="h4 mb-4">Community-Driven Social Media Integration</h3>
                 <p className="body-2 mb-[3rem] text-n-3">
-                  Bring your marketing efforts under one collaborative umbrella. Swap best practices, automation scripts, and campaign strategies with other creatives who’ve been there and done that. Together, we’ll combine our insights to master social platforms more effectively than ever before.
+                  Bring your marketing efforts under one collaborative umbrella. Swap best practices, automation scripts, and campaign strategies with other creatives who've been there and done that. Together, we'll combine our insights to master social platforms more effectively than ever before.
                 </p>
               </div>
               <PhotoChatMessage />
@@ -80,7 +95,7 @@ const Services = () => {
               <div className="py-12 px-4 xl:px-8">
                 <h3 className="h4 mb-4">Collective Content Creation</h3>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  Fuel your brand’s online presence with a supportive community of content creators. By sharing open-source tools, design tips, and testing feedback, we help each other produce consistent, high-quality content—no matter the platform or size of the project.
+                  Fuel your brand's online presence with a supportive community of content creators. By sharing open-source tools, design tips, and testing feedback, we help each other produce consistent, high-quality content—no matter the platform or size of the project.
                 </p>
               </div>
               <ul className="flex items-center justify-between">

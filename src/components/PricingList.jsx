@@ -29,7 +29,7 @@ const PricingList = () => {
             href={
               item.price < 100
                 ? "#pricing"
-                : "mailto:cody@cojovi.app"
+                : "mailto:cody@cojovi.com"
             }
             white={item.price < 100}
           >
