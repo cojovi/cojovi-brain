@@ -2,6 +2,7 @@ import Section from "./Section";
 import Heading from "./Heading";
 import { check, service1, service2, service3 } from "../assets";
 import { brainmasterServicesIcons, brainmastertServices } from "../constants";
+import MickIcon from "../assets/benefits/card-1.svg";
 import Generating from "./Generating";
 import { ScrollParallax } from "react-just-parallax";
 import {
@@ -48,8 +49,7 @@ const Services = () => {
                 className="inline-flex items-center gap-2 px-4 py-2 mb-4 rounded-xl border border-n-1/10 bg-n-8 hover:bg-n-7 transition-colors shadow-sm"
                 style={{ textDecoration: 'none' }}
               >
-                {/* Use a purple icon asset, e.g., benefitIcon1 or similar */}
-                <img src={require('../assets/benefits/card-1.svg').default} alt="Mick Icon" width={24} height={24} />
+                <img src={MickIcon} alt="Mick Icon" width={24} height={24} />
                 <span className="font-semibold text-sm text-purple-400">Try Mick Live</span>
               </a>
               <ul className="body-2">
