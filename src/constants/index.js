@@ -257,6 +257,57 @@ export const pricing = [
   },
 ];
 
+export const websiteShowcase = [
+  {
+    id: "0",
+    title: "BEEFTHROAT.COM",
+    url: "https://beefthroat.com",
+    tagline: "Welcome to Beefthroat.com",
+    description: "Your destination for unique apparel and accessories",
+    screenshotUrl: "/screenshots/beefthroat-preview.svg",
+    buttonText: "EXPLORE SELECTION",
+    buttonColor: "orange",
+    borderGradient: "from-orange-500 to-yellow-500",
+    features: [
+      "Unique Apparel & Accessories",
+      "Featured Products & Memberships",
+      "Social Media & Community",
+    ],
+  },
+  {
+    id: "1",
+    title: "THE NORTH STAR LEDGER",
+    url: "https://thenorthstarledger.com",
+    tagline: "Your Browser Just Got Rejected by AI",
+    description: "Daily global updates and exclusive content",
+    screenshotUrl: "/screenshots/northstar-preview.svg",
+    buttonText: "READ LATEST",
+    buttonColor: "purple",
+    borderGradient: "from-purple-500 to-pink-500",
+    features: [
+      "Daily Global Updates",
+      "Science & Tech Focus",
+      "Exclusive Interviews",
+    ],
+  },
+  {
+    id: "2",
+    title: "THE TRUTH ARBITER",
+    url: "https://thetrutharbiter.com",
+    tagline: "Where Inclusive Dialogue Shapes Understanding",
+    description: "Join the conversation and engage in real-time debates",
+    screenshotUrl: "/screenshots/trutharbiter-preview.svg",
+    buttonText: "JOIN A DEBATE",
+    buttonColor: "green",
+    borderGradient: "from-green-500 to-cyan-500",
+    features: [
+      "Real-Time Debates & Discussions",
+      "Thoughtful Content & Analysis",
+      "Inclusive Community & Perspectives",
+    ],
+  },
+];
+
 export const benefits = [
   {
     id: "0",

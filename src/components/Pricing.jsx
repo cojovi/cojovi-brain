@@ -31,9 +31,9 @@ const Pricing = () => {
           </div>
         </div>
         <Heading
-          title="Pick the membership, that fits you best"
-          tag="Get started with Cojovi"
-          tagAccent="Webworx"
+          title="Our Featured Website Portfolio"
+          tag="Explore Our Latest"
+          tagAccent="Web Projects"
         />
         <div className="relative">
           <PricingList />
@@ -45,7 +45,7 @@ const Pricing = () => {
             className="text-xs font-code font-bold tracking-wider uppercase"
             href="#pricing"
           >
-            See the full details
+            View All Projects
           </Button>
         </div>
       </div>
